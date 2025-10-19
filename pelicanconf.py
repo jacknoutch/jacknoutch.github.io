@@ -2,6 +2,9 @@ AUTHOR = 'Jack Noutch'
 SITENAME = 'Jack Noutch'
 SITEURL = ""
 
+# Custom theme
+THEME = "/home/jacknoutch/projects/blog/pelican_themes/pelican-themes/monospace"
+
 PATH = "content"
 
 TIMEZONE = 'Europe/London'
