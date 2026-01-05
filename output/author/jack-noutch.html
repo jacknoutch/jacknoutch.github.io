@@ -28,113 +28,148 @@
         
 
             <header>
-            <h1><a href="https://jacknoutch.github.io" id="site-title">  </a>  <a href="https://jacknoutch.github.io/ancient-greek-accentuation-the-article.html" id="page-title">Ancient Greek Accentuation: the article</a></h1>
-<time datetime="2025-10-19T00:00:00+01:00">Sun 19 October 2025</time>            </header>
+            <h1><a href="https://jacknoutch.github.io" id="site-title">  </a>  <a href="https://jacknoutch.github.io/typing-latin-macrons-and-breves.html" id="page-title">Typing Latin macrons and breves</a></h1>
+<time datetime="2026-01-05T00:00:00+00:00">Mon 05 January 2026</time>            </header>
 
             <article>
-                <p>The forms which begin with vowel (ὁ, ἡ, οἱ, αἱ) are proclitics.</p>
-<p>All other nominative and accusative forms are oxytone.</p>
-<p>All genitive and dative forms are perispomenon.</p>
+                <h1>README: North &amp; Hillard Latin Prose Composition</h1>
+<p>The transcribed document derives from <a href="https://archive.org/details/north-m.-hilladr-a.-latin-prose-composition-1913/page/n1/mode/1up">archive.org</a>.</p>
+<h1>Typing macrons and breves on a Windows machine</h1>
+<p>As part of my transcription of <a href="https://github.com/jacknoutch/north_hillard_latin_vocabulary/tree/master">North &amp; Hillard's Latin Prose Composition</a>, I have needed to type macrons and breves over all five vowels (and their capitals) to accurately transcribe the text. Copy and paste is too slow.</p>
+<p>I use a Windows machine, which has the drawback of not allowing for combining keystrokes such as is possible on Mac.</p>
+<p>The simplest way to type many characters with diacritics is to use Alt codes. (Make sure Num lock is on. Holding down Alt, type the corresponding number for the character on the number pad.)</p>
+<p>However, Alt codes above 255 only work with some programs. They can be typed in Word, but not in Chrome, Edge, VS Code, etc. The vowels with breves and macrons all have Alt codes over 255. </p>
+<p>My workaround is to use <a href="https://www.autohotkey.com/">AutoHotkey</a> with the following script. This <em>still</em> doesn't work in VS Code with Markdown files (though it does with, e.g., txt files in VSC). This is because VSC seems to "steal" the keystrokes before AutoHotkey is able to register and replace them.</p>
+<p>But this works enough for me to type in the browser and edit the files on Github.</p>
+<p>The shortcuts work as follows: type the letter (upper or lowercase) then <code>=</code> for a macron or <code>+</code> for a breve. Eg. <code>a+</code> becomes <code>ă</code> and <code>O=</code> becomes <code>Ō</code>.</p>
+<div class="highlight"><pre><span></span><code><span class="gh">#</span>Requires AutoHotkey v2.0
+
+:*?:a+::ă
+:*?:a=::ā
+:*?:e+::ĕ
+:*?:e=::ē
+:*?:i+::ĭ
+:*?:i=::ī
+:*?:o+::ŏ
+:*?:o=::ō
+:*?:u+::ŭ
+:*?:u=::ū
+
+:*?:A+::Ă
+:*?:A=::Ā
+:*?:E+::Ĕ
+:*?:E=::Ē
+:*?:I+::Ĭ
+:*?:I=::Ī
+:*?:O+::Ŏ
+:*?:O=::Ō
+:*?:U+::Ŭ
+:*?:U=::Ū
+</code></pre></div>
+
+<h3>The Alt codes</h3>
+<p>For each vowel, there are four variations: Upper and lower case macron, Upper and lower case breve. These four variations are consecutive in both Unicode and the Alt code.</p>
+<p>So, for <code>a</code> the Alt codes are <code>256 Ā</code>, <code>257 ā</code>, <code>258 Ă</code>, <code>259 ă</code>.</p>
+<p>The first Alt code for each of the vowels' quartets is: 
+- <code>a 256</code>
+- <code>e 274</code>
+- <code>i 298</code>
+- <code>o 332</code>
+- <code>u 362</code></p>
+<p>A fuller table (without capitals) is given below in a more readable format.</p>
 <table>
 <thead>
 <tr>
-<th>Num</th>
-<th>Case</th>
-<th>Masc</th>
-<th>Fem</th>
-<th>Neut</th>
+<th>name</th>
+<th>graph</th>
+<th>alt code</th>
+<th>unicode</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Sg</td>
-<td>Nom</td>
-<td>ὁ</td>
-<td>ἡ</td>
-<td>τό</td>
+<td>a breve</td>
+<td>ă</td>
+<td>259</td>
+<td>U+0103</td>
 </tr>
 <tr>
-<td></td>
-<td>Acc</td>
-<td>τόν</td>
-<td>τήν</td>
-<td>τό</td>
+<td>a macron</td>
+<td>ā</td>
+<td>257</td>
+<td>U+0101</td>
 </tr>
 <tr>
-<td></td>
-<td>Gen</td>
-<td>τοῦ</td>
-<td>τῆς</td>
-<td>τοῦ</td>
+<td>e breve</td>
+<td>ĕ</td>
+<td>277</td>
+<td>U+0115</td>
 </tr>
 <tr>
-<td></td>
-<td>Dat</td>
-<td>τῷ</td>
-<td>τῇ</td>
-<td>τῷ</td>
+<td>e macron</td>
+<td>ē</td>
+<td>275</td>
+<td>U+0113</td>
 </tr>
 <tr>
-<td>Pl</td>
-<td>Nom</td>
-<td>οἱ</td>
-<td>αἱ</td>
-<td>τά</td>
+<td>i breve</td>
+<td>ĭ</td>
+<td>301</td>
+<td>U+012D</td>
 </tr>
 <tr>
-<td></td>
-<td>Acc</td>
-<td>τούς</td>
-<td>τάς</td>
-<td>τά</td>
+<td>i macron</td>
+<td>ī</td>
+<td>299</td>
+<td>U+012B</td>
 </tr>
 <tr>
-<td></td>
-<td>Gen</td>
-<td>τῶν</td>
-<td>τῶν</td>
-<td>τῶν</td>
+<td>o breve</td>
+<td>ŏ</td>
+<td>335</td>
+<td>U+014F</td>
 </tr>
 <tr>
-<td></td>
-<td>Dat</td>
-<td>τοῖς</td>
-<td>ταῖς</td>
-<td>τοῖς</td>
-</tr>
-</tbody>
-</table>
-<p>These rules also hold for the dual:</p>
-<table>
-<thead>
-<tr>
-<th>Num</th>
-<th>Case</th>
-<th>Masc</th>
-<th>Fem</th>
-<th>Neut</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Dl</td>
-<td>Nom/Acc</td>
-<td>τώ</td>
-<td>τώ</td>
-<td>τώ</td>
+<td>o macron</td>
+<td>ō</td>
+<td>333</td>
+<td>U+014D</td>
 </tr>
 <tr>
-<td></td>
-<td>Gen/Dat</td>
-<td>τοῖν</td>
-<td>τοῖν</td>
-<td>τοῖν</td>
+<td>u breve</td>
+<td>ŭ</td>
+<td>365</td>
+<td>U+016D</td>
+</tr>
+<tr>
+<td>u macron</td>
+<td>ū</td>
+<td>363</td>
+<td>U+016B</td>
 </tr>
 </tbody>
 </table>            </article>
                 <section id="article-list">
                     <h2>All posts</h2>
                     <ol>
+        </ol>
+        </section><!-- #article-list -->
+        
+
+ 
+            <li><a href="https://jacknoutch.github.io/duff-nt-greek-ch-8.html" rel="bookmark" title="Permalink to Duff, NT Greek Ch. 8">Duff, NT Greek Ch. 8</a></li>
+        </ol>
+        </section><!-- #article-list -->
+        
+
+ 
+            <li><a href="https://jacknoutch.github.io/companies-house-red-flag.html" rel="bookmark" title="Permalink to Companies House Red Flag">Companies House Red Flag</a></li>
+        </ol>
+        </section><!-- #article-list -->
+        
+
+ 
+            <li><a href="https://jacknoutch.github.io/ancient-greek-accentuation-the-article.html" rel="bookmark" title="Permalink to Ancient Greek Accentuation: the article">Ancient Greek Accentuation: the article</a></li>
         </ol>
         </section><!-- #article-list -->
         
@@ -163,6 +198,18 @@
             <h1><a href="https://jacknoutch.github.io/" title="title">Jack Noutch</a></h1>
             <span class="description"> </span>
             <!-- <span class="feed"><a href="">RSS</a> | <a href="">Atom</a></span> -->
+                        <li>
+                            05-01-2026<br/>
+                            <a href="https://jacknoutch.github.io/typing-latin-macrons-and-breves.html" rel="bookmark" title="Permalink to Typing Latin macrons and breves">Typing Latin macrons and breves</a>
+                        </li>
+                        <li>
+                            31-10-2025<br/>
+                            <a href="https://jacknoutch.github.io/duff-nt-greek-ch-8.html" rel="bookmark" title="Permalink to Duff, NT Greek Ch. 8">Duff, NT Greek Ch. 8</a>
+                        </li>
+                        <li>
+                            23-10-2025<br/>
+                            <a href="https://jacknoutch.github.io/companies-house-red-flag.html" rel="bookmark" title="Permalink to Companies House Red Flag">Companies House Red Flag</a>
+                        </li>
                         <li>
                             19-10-2025<br/>
                             <a href="https://jacknoutch.github.io/ancient-greek-accentuation-the-article.html" rel="bookmark" title="Permalink to Ancient Greek Accentuation: the article">Ancient Greek Accentuation: the article</a>
