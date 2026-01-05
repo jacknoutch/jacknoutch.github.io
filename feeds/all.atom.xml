@@ -1,5 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Jack Noutch</title><link href="https://jacknoutch.github.io/" rel="alternate"/><link href="https://jacknoutch.github.io/feeds/all.atom.xml" rel="self"/><id>https://jacknoutch.github.io/</id><updated>2025-10-19T00:00:00+01:00</updated><entry><title>Ancient Greek Accentuation: the article</title><link href="https://jacknoutch.github.io/ancient-greek-accentuation-the-article.html" rel="alternate"/><published>2025-10-19T00:00:00+01:00</published><updated>2025-10-19T00:00:00+01:00</updated><author><name>Jack Noutch</name></author><id>tag:jacknoutch.github.io,2025-10-19:/ancient-greek-accentuation-the-article.html</id><summary type="html">&lt;p&gt;The forms which begin with vowel (ὁ, ἡ, οἱ, αἱ) are proclitics.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Jack Noutch</title><link href="https://jacknoutch.github.io/" rel="alternate"/><link href="https://jacknoutch.github.io/feeds/all.atom.xml" rel="self"/><id>https://jacknoutch.github.io/</id><updated>2026-01-05T00:00:00+00:00</updated><entry><title>Typing Latin macrons and breves</title><link href="https://jacknoutch.github.io/typing-latin-macrons-and-breves.html" rel="alternate"/><published>2026-01-05T00:00:00+00:00</published><updated>2026-01-05T00:00:00+00:00</updated><author><name>Jack Noutch</name></author><id>tag:jacknoutch.github.io,2026-01-05:/typing-latin-macrons-and-breves.html</id><summary type="html">&lt;h1&gt;README: North &amp;amp; Hillard Latin Prose Composition&lt;/h1&gt;
+&lt;p&gt;The transcribed document derives from &lt;a href="https://archive.org/details/north-m.-hilladr-a.-latin-prose-composition-1913/page/n1/mode/1up"&gt;archive.org&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;Typing macrons and breves on a Windows machine&lt;/h1&gt;
+&lt;p&gt;As part of my transcription of &lt;a href="https://github.com/jacknoutch/north_hillard_latin_vocabulary/tree/master"&gt;North &amp;amp; Hillard's Latin Prose Composition&lt;/a&gt;, I have needed to type macrons and breves over all five vowels (and their capitals) to accurately transcribe …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;README: North &amp;amp; Hillard Latin Prose Composition&lt;/h1&gt;
+&lt;p&gt;The transcribed document derives from &lt;a href="https://archive.org/details/north-m.-hilladr-a.-latin-prose-composition-1913/page/n1/mode/1up"&gt;archive.org&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;Typing macrons and breves on a Windows machine&lt;/h1&gt;
+&lt;p&gt;As part of my transcription of &lt;a href="https://github.com/jacknoutch/north_hillard_latin_vocabulary/tree/master"&gt;North &amp;amp; Hillard's Latin Prose Composition&lt;/a&gt;, I have needed to type macrons and breves over all five vowels (and their capitals) to accurately transcribe the text. Copy and paste is too slow.&lt;/p&gt;
+&lt;p&gt;I use a Windows machine, which has the drawback of not allowing for combining keystrokes such as is possible on Mac.&lt;/p&gt;
+&lt;p&gt;The simplest way to type many characters with diacritics is to use Alt codes. (Make sure Num lock is on. Holding down Alt, type the corresponding number for the character on the number pad.)&lt;/p&gt;
+&lt;p&gt;However, Alt codes above 255 only work with some programs. They can be typed in Word, but not in Chrome, Edge, VS Code, etc. The vowels with breves and macrons all have Alt codes over 255. &lt;/p&gt;
+&lt;p&gt;My workaround is to use &lt;a href="https://www.autohotkey.com/"&gt;AutoHotkey&lt;/a&gt; with the following script. This &lt;em&gt;still&lt;/em&gt; doesn't work in VS Code with Markdown files (though it does with, e.g., txt files in VSC). This is because VSC seems to "steal" the keystrokes before AutoHotkey is able to register and replace them.&lt;/p&gt;
+&lt;p&gt;But this works enough for me to type in the browser and edit the files on Github.&lt;/p&gt;
+&lt;p&gt;The shortcuts work as follows: type the letter (upper or lowercase) then &lt;code&gt;=&lt;/code&gt; for a macron or &lt;code&gt;+&lt;/code&gt; for a breve. Eg. &lt;code&gt;a+&lt;/code&gt; becomes &lt;code&gt;ă&lt;/code&gt; and &lt;code&gt;O=&lt;/code&gt; becomes &lt;code&gt;Ō&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="gh"&gt;#&lt;/span&gt;Requires AutoHotkey v2.0
+
+:*?:a+::ă
+:*?:a=::ā
+:*?:e+::ĕ
+:*?:e=::ē
+:*?:i+::ĭ
+:*?:i=::ī
+:*?:o+::ŏ
+:*?:o=::ō
+:*?:u+::ŭ
+:*?:u=::ū
+
+:*?:A+::Ă
+:*?:A=::Ā
+:*?:E+::Ĕ
+:*?:E=::Ē
+:*?:I+::Ĭ
+:*?:I=::Ī
+:*?:O+::Ŏ
+:*?:O=::Ō
+:*?:U+::Ŭ
+:*?:U=::Ū
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;The Alt codes&lt;/h3&gt;
+&lt;p&gt;For each vowel, there are four variations: Upper and lower case macron, Upper and lower case breve. These four variations are consecutive in both Unicode and the Alt code.&lt;/p&gt;
+&lt;p&gt;So, for &lt;code&gt;a&lt;/code&gt; the Alt codes are &lt;code&gt;256 Ā&lt;/code&gt;, &lt;code&gt;257 ā&lt;/code&gt;, &lt;code&gt;258 Ă&lt;/code&gt;, &lt;code&gt;259 ă&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The first Alt code for each of the vowels' quartets is: 
+- &lt;code&gt;a 256&lt;/code&gt;
+- &lt;code&gt;e 274&lt;/code&gt;
+- &lt;code&gt;i 298&lt;/code&gt;
+- &lt;code&gt;o 332&lt;/code&gt;
+- &lt;code&gt;u 362&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;A fuller table (without capitals) is given below in a more readable format.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;name&lt;/th&gt;
+&lt;th&gt;graph&lt;/th&gt;
+&lt;th&gt;alt code&lt;/th&gt;
+&lt;th&gt;unicode&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;a breve&lt;/td&gt;
+&lt;td&gt;ă&lt;/td&gt;
+&lt;td&gt;259&lt;/td&gt;
+&lt;td&gt;U+0103&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;a macron&lt;/td&gt;
+&lt;td&gt;ā&lt;/td&gt;
+&lt;td&gt;257&lt;/td&gt;
+&lt;td&gt;U+0101&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;e breve&lt;/td&gt;
+&lt;td&gt;ĕ&lt;/td&gt;
+&lt;td&gt;277&lt;/td&gt;
+&lt;td&gt;U+0115&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;e macron&lt;/td&gt;
+&lt;td&gt;ē&lt;/td&gt;
+&lt;td&gt;275&lt;/td&gt;
+&lt;td&gt;U+0113&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;i breve&lt;/td&gt;
+&lt;td&gt;ĭ&lt;/td&gt;
+&lt;td&gt;301&lt;/td&gt;
+&lt;td&gt;U+012D&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;i macron&lt;/td&gt;
+&lt;td&gt;ī&lt;/td&gt;
+&lt;td&gt;299&lt;/td&gt;
+&lt;td&gt;U+012B&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;o breve&lt;/td&gt;
+&lt;td&gt;ŏ&lt;/td&gt;
+&lt;td&gt;335&lt;/td&gt;
+&lt;td&gt;U+014F&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;o macron&lt;/td&gt;
+&lt;td&gt;ō&lt;/td&gt;
+&lt;td&gt;333&lt;/td&gt;
+&lt;td&gt;U+014D&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;u breve&lt;/td&gt;
+&lt;td&gt;ŭ&lt;/td&gt;
+&lt;td&gt;365&lt;/td&gt;
+&lt;td&gt;U+016D&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;u macron&lt;/td&gt;
+&lt;td&gt;ū&lt;/td&gt;
+&lt;td&gt;363&lt;/td&gt;
+&lt;td&gt;U+016B&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</content><category term="misc"/></entry><entry><title>Duff, NT Greek Ch. 8</title><link href="https://jacknoutch.github.io/duff-nt-greek-ch-8.html" rel="alternate"/><published>2025-10-31T00:00:00+00:00</published><updated>2025-10-31T00:00:00+00:00</updated><author><name>Jack Noutch</name></author><id>tag:jacknoutch.github.io,2025-10-31:/duff-nt-greek-ch-8.html</id><summary type="html">&lt;ol&gt;
+&lt;li&gt;οἱ προφηται ἐκηρυξεν· Ἐκ της καρδιας ἐξερχεται πονηρα και ἀγαθα.&lt;/li&gt;
+&lt;li&gt;δει διερχεσται δια της ἐμηρου συν τοις στρατιωταις.&lt;/li&gt;
+&lt;li&gt;ἡ ἀγαπη κακον ἐργαζεται· ἡ μεγαλη ἐντολη ἐστιν ἀγαπη.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ἀσπαζονται ἐν κυριῳ Βαρναβας και Ἰουδας οἱ μαθηται τας ἐκκλησιας της Ἰερουσαλημ.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The subject of ἀσπαζονται is Βαρναβας και Ἰουδας οἱ μαθηται.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;The …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;ol&gt;
+&lt;li&gt;οἱ προφηται ἐκηρυξεν· Ἐκ της καρδιας ἐξερχεται πονηρα και ἀγαθα.&lt;/li&gt;
+&lt;li&gt;δει διερχεσται δια της ἐμηρου συν τοις στρατιωταις.&lt;/li&gt;
+&lt;li&gt;ἡ ἀγαπη κακον ἐργαζεται· ἡ μεγαλη ἐντολη ἐστιν ἀγαπη.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ἀσπαζονται ἐν κυριῳ Βαρναβας και Ἰουδας οἱ μαθηται τας ἐκκλησιας της Ἰερουσαλημ.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The subject of ἀσπαζονται is Βαρναβας και Ἰουδας οἱ μαθηται.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;The subject comes after the verb.&lt;/li&gt;
+&lt;li&gt;Βαρναβας και Ἰουδας are nominative. They are further described by οἱ μαθηται, which stands in apposition to them. "Barnabas and Judas, the disciples" or "the disciples, Barnabas and Judas".&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In apposition&lt;/p&gt;</content><category term="misc"/></entry><entry><title>Companies House Red Flag</title><link href="https://jacknoutch.github.io/companies-house-red-flag.html" rel="alternate"/><published>2025-10-23T00:00:00+01:00</published><updated>2025-10-23T00:00:00+01:00</updated><author><name>Jack Noutch</name></author><id>tag:jacknoutch.github.io,2025-10-23:/companies-house-red-flag.html</id><content type="html">&lt;p&gt;I use Companies House every day in my day job as a financial investigator.&lt;/p&gt;
+&lt;p&gt;It has some problems.&lt;/p&gt;</content><category term="misc"/></entry><entry><title>Ancient Greek Accentuation: the article</title><link href="https://jacknoutch.github.io/ancient-greek-accentuation-the-article.html" rel="alternate"/><published>2025-10-19T00:00:00+01:00</published><updated>2025-10-19T00:00:00+01:00</updated><author><name>Jack Noutch</name></author><id>tag:jacknoutch.github.io,2025-10-19:/ancient-greek-accentuation-the-article.html</id><summary type="html">&lt;p&gt;The forms which begin with vowel (ὁ, ἡ, οἱ, αἱ) are proclitics.&lt;/p&gt;
 &lt;p&gt;All other nominative and accusative forms are oxytone.&lt;/p&gt;
 &lt;p&gt;All genitive and dative forms are perispomenon.&lt;/p&gt;
 &lt;table&gt;
