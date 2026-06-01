@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Quartz 5</title>
+      <link>https://jacknoutch.github.io/quartz</link>
+      <description>Last 10 notes on Quartz 5</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Tag Index</title>
+    <link>https://jacknoutch.github.io/quartz/tags/</link>
+    <guid>https://jacknoutch.github.io/quartz/tags/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Mon, 01 Jun 2026 17:32:58 GMT</pubDate>
+  </item><item>
+    <title>Jack Noutch</title>
+    <link>https://jacknoutch.github.io/quartz/</link>
+    <guid>https://jacknoutch.github.io/quartz/</guid>
+    <description><![CDATA[ Links LinkedIn GitHub . ]]></description>
+    <pubDate>Mon, 01 Jun 2026 17:18:39 GMT</pubDate>
+  </item><item>
+    <title>Typing Latin Macrons and Breves</title>
+    <link>https://jacknoutch.github.io/quartz/typing-latin-macrons-and-breves</link>
+    <guid>https://jacknoutch.github.io/quartz/typing-latin-macrons-and-breves</guid>
+    <description><![CDATA[ Typing macrons and breves on a Windows machine As part of my transcription of North &amp; Hillard’s Latin Prose Composition, I have needed to type macrons and breves over all five vowels (and their capitals) to accurately transcribe the text. ]]></description>
+    <pubDate>Tue, 06 Jan 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Ancient Greek Accentuation, the article</title>
+    <link>https://jacknoutch.github.io/quartz/ancient-greek-accentuation,-the-article</link>
+    <guid>https://jacknoutch.github.io/quartz/ancient-greek-accentuation,-the-article</guid>
+    <description><![CDATA[ The forms which begin with vowel (ὁ, ἡ, οἱ, αἱ) are proclitics. All other nominative and accusative forms are oxytone. ]]></description>
+    <pubDate>Sat, 18 Oct 2025 23:00:00 GMT</pubDate>
+  </item><item>
+    <title>Operator! Devlog 1</title>
+    <link>https://jacknoutch.github.io/quartz/operator!-devlog-1</link>
+    <guid>https://jacknoutch.github.io/quartz/operator!-devlog-1</guid>
+    <description><![CDATA[ I enthused with a recent contact over a mutual love of puzzle and mystery games that give a true feeling of deduction. ]]></description>
+    <pubDate>Wed, 09 Apr 2025 23:00:00 GMT</pubDate>
+  </item><item>
+    <title>Classical Editions for Holiday Reading</title>
+    <link>https://jacknoutch.github.io/quartz/classical-editions-for-holiday-reading</link>
+    <guid>https://jacknoutch.github.io/quartz/classical-editions-for-holiday-reading</guid>
+    <description><![CDATA[ Previously I wrote about the tendency for online texts to lack the readerly pleasure of many classical editions. ]]></description>
+    <pubDate>Thu, 27 Jun 2024 23:00:00 GMT</pubDate>
+  </item><item>
+    <title>Vergil&#039;s Eclogues, an online reader</title>
+    <link>https://jacknoutch.github.io/quartz/vergil's-eclogues,-an-online-reader</link>
+    <guid>https://jacknoutch.github.io/quartz/vergil's-eclogues,-an-online-reader</guid>
+    <description><![CDATA[ In the first quarter of 2023 I published vergil.co.uk, an online reader for Vergil’s Eclogues (aka his Bucolics). ]]></description>
+    <pubDate>Thu, 20 Jun 2024 23:00:00 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
