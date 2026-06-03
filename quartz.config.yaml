@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: en-GB
   baseUrl: jacknoutch.github.io
   ignorePatterns:
     - private
@@ -16,7 +16,7 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
+      header: Alegreya SC
       body: Alegreya
       code: IBM Plex Mono
     colors:
