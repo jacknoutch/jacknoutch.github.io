@@ -9,11 +9,11 @@ The Loeb makes "holiday" reading possible, not just on the beach, but away from 
 
 Between the late 19th and mid 20th century, there were a range of texts for school and undergraduate students which reduced the size of a reading volume still further. Cambridge's [Pitt Press Series](https://www.publishinghistory.com/pitt-press-series-cambridge.html) published book sections of wider classical works (such as Dodds' 1923 Book I of Lucretius' _DRN_) or shorter texts (such as Summers' 1968 _Cataline_ by Sallust) resulting in volumes of little more than 150 pages, encompassing introduction, text, and commentary endnotes. The result was a hardback similar in profile to a Loeb (they measure 6¾ inches by 4⅝) but much thinner.
 
-![Laptop computer](https://jacknoutch.github.io/images/2024-06-08_loeb_pitt_press_readers/readers_on_shelf.jpg)
+![[Pasted image 20260603103905.png]]
 
 I have found myself making a collection of these Pitt Press volumes, since I find them the most enjoyable means of reading a classical text. Brevity is their strength. It enhances portability. But readability is maintained not with a facing translation but by endnotes focussed on comprehension. Moreover, choosing a book of the Aeneid, and not the whole work, as with the Loeb, is a much less fancible objective for my reading in a week, or a day.
 
-![Laptop computer](https://jacknoutch.github.io/images/2024-06-08_loeb_pitt_press_readers/pitt_press_notes.jpg)
+![[Pasted image 20260603103928.png]]
 
 The books are printed with care as to the layout, orderliness and readability. I like the typeface (though I have no idea what it is). Identifying where one is in the text is never difficult thanks to the standard reference numerals discretely set back from the main text. The notes appropriately use bold for headwords of the comment, and conventions for glossing and Latin text neatly separate what sometimes is crowded into uniformity. These small details are not to be underestimated when the reading of classical texts involves the regular moving between text and notes---it is essential that the reader can identify where he left off and where to find the note.
 
