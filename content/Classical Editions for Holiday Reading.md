@@ -1,5 +1,6 @@
 ---
 date: 2024-06-28
+title: Classical Editions
 ---
 Previously I wrote about the tendency for online texts to lack the readerly pleasure of many classical editions.
 

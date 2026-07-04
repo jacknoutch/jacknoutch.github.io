@@ -1,5 +1,6 @@
 ---
 date: 2025-04-10
+title: Jack Noutch
 ---
 I enthused with a recent contact over a mutual love of puzzle and mystery games that give a true feeling of deduction. (Among the best are Obra Dinn, The Case of the Golden Idol, Her Story, and Type Help.) We also recently formed a team to compete in this year's CS50 Puzzle Day. Now before our next catch-up we've agreed to make each other a small (!) mystery game.
 
