@@ -1,5 +1,7 @@
 ---
 date: 2026-01-06
+tags:
+  - classics
 ---
 # Typing macrons and breves on a Windows machine
 As part of my transcription of [North & Hillard's Latin Prose Composition](https://github.com/jacknoutch/north_hillard_latin_vocabulary/tree/master), I have needed to type macrons and breves over all five vowels (and their capitals) to accurately transcribe the text. Copy and paste is too slow.

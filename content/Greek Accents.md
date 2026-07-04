@@ -1,3 +1,9 @@
+---
+tags:
+  - classics
+  - project
+---
+
 Ancient Greek has three kinds of accent:
 - acute (ά)
 - circumflex (ᾶ)
@@ -28,9 +34,11 @@ Traditional grammars use the Greek terms of ancient grammarians to describe the 
 | properispomenon<br> | circumflex | penultimate     | στρατιῶται                 |
 | barytone<br>        | grave      | ultimate        | εἰς **τὸν ἀγορὰν** βαίνει. |
 
-The Greek words are adjectives, so it proper to say, "The word ἄνθρωπος is proparoxtyone."
+The Greek words are adjectives, so it proper to say, "The word ἄνθρωπος is proparoxytone."
 
 (The ultimate syllable is the last; the penultimate is the second-to-last, and the antepenultimate is the third-to-last.)
+## Topics
+[[Ancient Greek Accentuation, the article]]
 ## Further reading
 - Koster, A. J., *A Practical Guide for the Writing of The Greek Accents*, Brill 1976
 - [Noutch, Jack, A CLI application to test your knowledge of Ancient Greek accentuation](https://github.com/jacknoutch/greek_accent_tester)

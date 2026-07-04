@@ -1,5 +1,9 @@
 ---
 date: 2024-06-21
+tags:
+  - vergil_reader
+  - blog
+  - classics
 ---
 In the first quarter of 2023 I published [vergil.co.uk](https://vergil.co.uk/), an online reader for Vergil's _Eclogues_ (aka his _Bucolics_).
 

@@ -1,5 +1,7 @@
 ---
 date: 2025-10-19
+tags:
+  - classics
 ---
 See [[Greek Accents]] for an overview.
 

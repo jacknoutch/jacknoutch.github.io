@@ -1,5 +1,8 @@
 ---
 date: 2024-06-28
+tags:
+  - blog
+  - classics
 ---
 Previously I wrote about the tendency for online texts to lack the readerly pleasure of many classical editions.
 

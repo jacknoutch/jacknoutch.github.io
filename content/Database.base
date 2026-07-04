@@ -1,0 +1,32 @@
+views:
+  - type: table
+    name: projects
+    filters:
+      and:
+        - file.tags.contains("project")
+    order:
+      - file.name
+  - type: table
+    name: blog
+    filters:
+      and:
+        - file.tags.contains("blog")
+    order:
+      - date
+      - file.name
+    separator: " "
+  - type: table
+    name: essays
+    filters:
+      and:
+        - file.tags.contains("essay")
+    order:
+      - date
+      - title
+    separator: " "
+    indentProperties: false
+  - type: cards
+    name: classics
+    filters:
+      and:
+        - file.tags.contains("classics")
