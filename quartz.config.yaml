@@ -256,7 +256,7 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
-  - source:
+  - source: # conflicts with custom fonts
       name: quartz-themes
       repo: github:saberzero1/quartz-themes
       subdir: plugin
