@@ -1,6 +1,8 @@
 ---
 date: 2025-10-19
 ---
+See [[Greek Accents]] for an overview.
+
 The forms which begin with vowel (ὁ, ἡ, οἱ, αἱ) are proclitics.
 
 All other nominative and accusative forms are oxytone.
