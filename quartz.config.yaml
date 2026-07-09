@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: "google"
-    tagId: "G-HG0PJPX3TE"
+    tagId: "G-QG19ZQMRGZ"
   locale: en-GB
   baseUrl: jacknoutch.github.io
   ignorePatterns:
