@@ -14,6 +14,9 @@ views:
     order:
       - date
       - file.name
+    sort:
+      - property: date
+        direction: DESC
     separator: " "
   - type: table
     name: essays
@@ -23,6 +26,9 @@ views:
     order:
       - date
       - title
+    sort:
+      - property: date
+        direction: DESC
     separator: " "
     indentProperties: false
   - type: cards
