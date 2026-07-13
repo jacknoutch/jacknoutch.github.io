@@ -1,7 +1,8 @@
 ---
 tags:
   - classics
-  - project
+  - projects
+title: Ancient Greek Accentuation
 ---
 
 Ancient Greek has three kinds of accent:
@@ -38,7 +39,7 @@ The Greek words are adjectives, so it proper to say, "The word ἄνθρωπος
 
 (The ultimate syllable is the last; the penultimate is the second-to-last, and the antepenultimate is the third-to-last.)
 ## Topics
-[[Ancient Greek Accentuation, the article]]
+[[Ancient Greek Accentuation The Article]]
 ## Further reading
 - Koster, A. J., *A Practical Guide for the Writing of The Greek Accents*, Brill 1976
 - [Noutch, Jack, A CLI application to test your knowledge of Ancient Greek accentuation](https://github.com/jacknoutch/greek_accent_tester)

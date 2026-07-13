@@ -2,7 +2,7 @@
 date: 2026-07-10
 title: June blackberries
 tags:
-  - seed
+  - sapling
 ---
 
 In 2026 I had my first blackberry in June. It was tart, tasty, and on my way to work. I have been looking out each morning at the three or four bramble-weeds in the unused land on one side of my local South London station. I had spotted red under the spiked tendrils during the first heatwave of the year, and in the second I could reliably pick a small handful each morning, for the price of missing the first train.

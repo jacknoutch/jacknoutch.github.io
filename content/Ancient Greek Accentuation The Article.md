@@ -2,6 +2,7 @@
 date: 2025-10-19
 tags:
   - classics
+title: Ancient Greek Accentuation, the article
 ---
 See [[Greek Accents]] for an overview.
 

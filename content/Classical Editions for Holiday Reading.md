@@ -3,6 +3,7 @@ date: 2024-06-28
 tags:
   - blog
   - classics
+title: Classical Editions for Holiday Reading
 ---
 Previously I wrote about the tendency for online texts to lack the readerly pleasure of many classical editions.
 
