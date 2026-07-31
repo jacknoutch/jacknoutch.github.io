@@ -1,7 +1,6 @@
 ---
 title: Durham University (2023)
 ---
-
 Durham holds a special place in my heart. I was there only a short period but it is the only place I chose to live for the place itself. I need little persuading to return for a visit.
 
 During the Master programme I wrote:

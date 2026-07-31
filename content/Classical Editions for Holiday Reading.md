@@ -5,7 +5,7 @@ tags:
   - classics
 title: Classical Editions for Holiday Reading
 ---
-Previously I wrote about the tendency for online texts to lack the readerly pleasure of many classical editions.
+[[Vergils Eclogues an Online Reader|I have written]] about the tendency for online texts to lack the readerly pleasure of many classical editions.
 
 The Loeb library has long been a favourite among classicists. The bright red and green tomes look well on the shelf. They fit in the hand and in the pocket. Their double pages, pairing original Greek or Latin with a facing translation, enable the reader to do without the usual paraphenalia of lexicon, grammar, commentary.
 

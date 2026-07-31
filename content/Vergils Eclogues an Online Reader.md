@@ -15,4 +15,5 @@ Some key design points are:
 - the minimum information necessary should be provided;
 - the project should be open-source (there is [a repository on GitHub](https://github.com/jacknoutch/eclogues_commentary)).
 
+Key inspirations were [Greek Learner Texts Project](https://greek-learner-texts.org/) and [Perseus (4.0 at least)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.02.0056).
 
