@@ -36,7 +36,8 @@ For inspiration, I picked out three current online applications which I admired:
 
 ### 2.3.1     The Greek Learner Text Project (GLTP)
 
-![[Pasted image 20260731154431.jpg]]
+![[Pasted image 20260731154227.png]]
+
 *Figure 1 – Partial screenshot of “Edwards’ Salamis in Easy Attic Greek”, digitalised by Christoph Jasinski, part of the GLTP.*
 
 [GLTP](https://greek-learner-texts.org/) is a collection of Greek texts designed for reading for those who have mastered the fundamentals of the language. The group behind the project is a collection of classical and biblical scholars, many unaffiliated to any institution. The texts (some completed, some in development) are all published under a Creative Commons Attribution-ShareAlike 4.0 licence, meaning that it can be copied, used, and adapted, even for commercial purposes, provided appropriate credit is given.
@@ -58,6 +59,7 @@ DCC’s texts are not interactive, and other than occasional grammatical notes, 
 Like GLTP, DCC is licenced under a Creative Commons Attribution-ShareAlike License.
 
 ![[Pasted image 20260731154431.jpg]]
+
 *Figure 2 – A screenshot of Caesar’s “Selections from the Gallic War”, ed. Christopher Francese for DCC.*
 
 ### 2.3.3     Aeneid.co
@@ -67,6 +69,7 @@ Aeneid.co was published by Ben Johnson, a Latin teacher in Maine. It is tailored
 The layout and interactivity of aeneid.co is highly attractive (Figure 3). Since reading is chunked, there is never too much text to overwhelm a less confident reader, and there is plenty of space for other information. Principal parts, with simple but appropriate glosses are accessed at the click of a word; core vocabulary is identified, and users can “star” words for learning in vocabulary list. Best of all, readers may add their own comments, line by line, which are neatly opened and hidden with a button to the side of each line. Uniquely among the similar reading environments I know of, the website is also responsively designed for mobile access. However, it is a commercial enterprise, a limited liability company, requiring paid subscription. The work is copyrighted and there is no open-source licensing.
 
 ![[Pasted image 20260731154456.jpg]]
+
 *Figure 3 – Screenshot of aeneid.co reading panel for the beginning of Book XI.*
 
 ## 2.4    Difficulties in reading
@@ -100,6 +103,7 @@ By now I had some guiding principles for designing vergil.co.uk. As we shall see
 I was impressed by the focus on the text which the Greek Learner Texts Project has. Because of this, and because I was less confident in using CSS, I began the project using a copy of their stylesheet. The layout for GLTP puts the text directly in the middle of the page with wide, clean margins on either side. (See Figure 4 for an early version of vergil.co.uk.) After I had developed enough of the website’s functionality (Figure 7), I revisited the design and created my own stylesheet. But the central text with margins remained.
 
 ![[Pasted image 20260731154525.jpg]]
+
 *Figure 4 – Screenshot of an early iteration of vergil.co.uk, using GLTP’s standard CSS template.*
 
 ## 3.2    Chunking
@@ -135,6 +139,7 @@ I then envisioned separate pop-up query boxes, one for word-based analysis, and 
 This single query box solution has thus far remained the project’s query mechanism. (Figure 5)
 
 ![[Pasted image 20260731154540.jpg]]
+
 *Figure 5 – vergil.co.uk’s query box*
 
 When a user first clicks on a word, the query box shows:
@@ -182,11 +187,13 @@ I have used no source data for the other comments. With hindsight, I might have 
 Syntactic notes seem of particular importance for a user’s queries. Questions like “What does this word agree with?” or “Which clause does this verb take?” are not best answered on a word-by-word analysis, and can prove a real stumbling block to reading. For the first ten lines, comments showing agreement have been completed for all adjectives, and this will be extended to the rest of the poem. This is done by referencing the relevant words with a hyperlink-like format in the comment. When the user clicks on these, the main text highlights those words together. (See Figure 6.)
 
 ![[Pasted image 20260731155656.png]]
+
 *Figure 6 – the query box showing a comment on the agreement of dulcia and arua, with highlighting.*
 
 Otherwise, commentary notes are mostly lacking, and only the first two sections have any quantity of notes. The difficulties are partly conceptual, partly technological. It is difficult to write comments relying only on my judgment. Reader feedback and experience of the poems in a teaching environment would reveal problem areas. More practically, the comments are written and stored in an XML format, which have proved very cumbersome to edit and add to.
 
 ![[Pasted image 20260731155707.png]]
+
 *Figure 7 – Screenshot of the latest iteration of vergil.co.uk.*
 
 # 4      Technical development
@@ -220,6 +227,7 @@ The intended audience of vergil.co.uk include young adults, whom I expect are mo
 The objective for mobile design was to give the text as much space as possible, whilst bringing up queried information as required. Since querying the text required only a single-click on the desktop version, a tap worked in the very same way for touchscreen, and allowed for the same content to be displayed. (Figure 8)
 
 ![[Pasted image 20260731155820.jpg]]
+
 *Figure 8 – A screenshot of the latest version of vergil.co.uk on a mobile device.*
 
 ## 4.4    Version control
